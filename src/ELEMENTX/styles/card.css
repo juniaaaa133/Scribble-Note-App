@@ -1,0 +1,136 @@
+.cz-ctn {
+    width:350px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+}
+.cz-layer {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom:0;
+    margin: auto;
+    background-color: #ddc1a9aa ;
+}
+.cz-txt{
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom:0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    z-index: 2;
+}
+.cz-img {
+    width:400px;
+    height: 400px;
+    opacity: .2;
+}
+.cz-ctn:hover .cz-img {
+    width:500px;
+    height: 500px;
+}
+/*CardD*/
+.cd-ctn {
+    margin-top: 20px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+
+}
+.cd-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.cd-avail-ctn {
+    position: absolute;
+    transform: rotate(-90deg);
+    right:-40px;
+    top:0;bottom:0;
+    margin:auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 32px;
+}
+.cd-percent {
+    position: absolute;
+    top:20px;
+    left:10px;
+    width:40px;
+    height:40px ;
+    border-radius: 50%;
+    padding: 10px;
+    transform: rotate(25deg);
+}
+.cd-title {
+    font-size: 20px;
+}
+.cd-price {
+    font-size: 14px;
+    font-weight: 500;
+}
+.cd-type {
+    font-size: 13px;
+    font-weight: 400;
+    color:#3a3a3a;
+    border:1px solid #585353;
+    padding:7px 40px;
+    border-radius: 20px;;
+}
+.cd-type-limited {
+    font-size: 13px;
+    font-weight: 400;
+    color:#bd3a3f ;
+    border:1px solid #c9393e;
+    padding:7px 25px;
+    border-radius: 20px;;
+} 
+.cd-type-spec {
+    font-size: 13px;
+    font-weight: 400;
+    color:#b7299d ;
+    border:1px solid #e241c4 ;
+    padding:7px 40px;
+    border-radius: 20px;;
+} 
+@media (max-width:768px) {
+    .cz-ctn {
+        width:100%;
+        height: 320px;
+    }
+    .cz-img {
+        width:120%;
+        height: 370px;
+        opacity: .3;
+    }
+    .cz-ctn:hover .cz-img {
+        width:140%;
+        height: 400px;
+    }
+    
+}
+@media (max-width:480px) {
+    .cz-ctn {
+        height: 400px;
+    }
+    .cz-img {
+        height: 420px;
+    }
+    .cz-ctn:hover .cz-img {
+        height: 430px;
+    }
+    /**CD */
+    .cd-img {
+        height: 280px;
+    }
+    
+}

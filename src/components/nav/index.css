@@ -1,0 +1,40 @@
+.nv-main {
+    position: sticky;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    z-index: 6;
+}
+.nv-slide-main {
+    width: fit-content;
+    height: 100vh;
+    position: fixed;
+    z-index: 7;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 40px;
+}
+.nv-slide-ctn {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 6;
+    top:0;
+    left:0;
+    background-color: #42404024;
+}
+.nv-slide-navs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+a.active {
+    color : #d53232
+}

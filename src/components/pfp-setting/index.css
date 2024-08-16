@@ -1,0 +1,24 @@
+.cp-main{
+    background-color: #5e5e5e38;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    z-index: 4;
+}
+.cp-ctn {
+    width: 550px;
+    height: 400px;
+    position: fixed;
+    top:0;
+    right:0;
+    left: 0;
+    bottom : 0;
+    margin: auto;
+    z-index: 4;
+}
+.pc-file-main {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}

@@ -1,0 +1,22 @@
+@import './styles/button.css';
+@import './styles/gallery.css';
+@import './styles/card.css';
+@import './styles/iconS.css';
+@import './styles/footer.css';
+@import './styles/contact.css';
+@import './styles/input.css';
+@import './styles/title.css';
+@import './styles/toggle.css';
+@import './abstract/abstract.css';
+@import './styles/tech.css';
+@import './styles/tag.css';
+@import './styles/loader.css';
+/* 
+.test{
+    background-color: rgb(185, 238, 255);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width:100%;
+    gap:80px;
+    justify-content: center;
+} */

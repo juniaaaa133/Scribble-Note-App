@@ -1,0 +1,11 @@
+.ir {
+    width: 100%;
+    height: 37px;
+    background-color: inherit;
+    border-bottom: solid 1px #898787;
+    padding: 15px ;
+    color:#3e3b39;
+}
+.ir:focus {
+    outline: inherit;
+}

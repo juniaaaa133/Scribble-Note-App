@@ -1,0 +1,33 @@
+.ac-main {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 40px;
+}
+.ac-pfp-main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ac-pfp-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.ac-pfp {
+    width:220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #d1d1d1;
+}
+.ac-btn-ctn  {
+    display: flex;
+    align-items: center;
+    gap: 10px;;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    background-color: #b9b9b9;
+}

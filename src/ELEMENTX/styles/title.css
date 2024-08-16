@@ -1,0 +1,28 @@
+.tx-main {
+    display: flex;
+    align-items: center;
+    line-height: 36px;
+    flex-direction: column;
+    gap:0px;
+    margin-top: 50px;
+    margin-bottom: 160px;
+}
+.tx-1 {
+    font-size: 28px;
+}
+.tx-2 {
+    font-size: 28px;
+    color:inherit;
+    -webkit-text-fill-color : white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #2f2f2f;
+ 
+}
+.tx-2D {
+    font-size: 28px;
+    color:inherit;
+    -webkit-text-fill-color : #2E3536;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #dddddd;
+ 
+}

@@ -1,0 +1,23 @@
+.togx {
+width: 200px;
+height: fit-content;
+position: fixed;
+bottom : -100%;
+left: 20px;
+border-radius: 5px;
+font-size: 15px;
+padding: 10px 15px;
+text-align:center;
+}
+.togxO {
+width: 200px;
+height: fit-content;
+position: fixed;
+bottom : 20px;
+left: 20px;
+border-radius: 5px;
+font-size: 15px;
+
+padding: 10px 15px;
+text-align:center;
+}

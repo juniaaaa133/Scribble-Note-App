@@ -1,0 +1,13 @@
+.menu-op-main {
+
+    background-color: #3d3d3d04;
+}
+.menu-op {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.menu-icn-ctn:hover {
+background-color: #f8f8f8;
+}

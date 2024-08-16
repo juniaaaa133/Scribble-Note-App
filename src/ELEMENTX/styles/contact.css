@@ -1,0 +1,55 @@
+.cot-main-ctn {
+    
+}
+.cot-intro {
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.cot-input-field {
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.cot-input {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.cotinp {
+    width:100%;
+}
+.cotarea {
+    width:100%;
+    height: 300px;
+    outline: inherit;
+    background-color: inherit;
+    border: solid 1px #898787;
+    padding: 15px ;
+    color:#3e3b39;
+    border-radius: 8px;
+}
+.cotbtn {
+    width:200px;
+    margin-top: 20px;
+}
+.cot-pg {
+padding: 0 40px
+;}
+@media (max-width:480px) {
+    .cot-intro {
+        width:100%;
+    }
+    .cotbtn {
+        width:100%;
+    }
+    .cot-main-ctn {
+    margin-top: 100px;
+    }
+    .cot-pg {
+        padding: 0 20px
+        ;}
+}

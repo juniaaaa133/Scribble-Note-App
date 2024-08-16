@@ -1,0 +1,43 @@
+.nt-ctn {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    gap: 20px;
+}
+.nt-main {
+    width: 100%;
+    height: 310px;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+}
+.nt-link-main {
+    width: 100%;
+    height: 310px;
+}
+.nt-star-menu-ctn {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 3;
+}
+.nt-upper-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nt-info-ctn1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nt-bot-ctn {
+    position: absolute;
+    bottom : 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
