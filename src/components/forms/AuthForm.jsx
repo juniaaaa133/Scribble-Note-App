@@ -52,7 +52,7 @@ const AuthForm = ({isLogin}) => {
          redirect('/')
          location.reload();
   }
-
+console.log(api)
   return (
     <div className='auth-ctn z-[8] w-[100%] h-[100vh] fixed top-0 bg-[#F4F0E6]'>
 
