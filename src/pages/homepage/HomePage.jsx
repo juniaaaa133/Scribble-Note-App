@@ -16,7 +16,6 @@ const HomePage = () => {
  let {user} = useContext(AuthContext)
 
  let fetchNotes = async () => {
-  console.log(api)
   let res = await fetch(`${api}/notations?page=${pageNo}`,{
     headers :{ 
       "Authorization" : `Bearer ${token}`
