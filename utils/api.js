@@ -1,1 +1,1 @@
-export const api = import.meta.env.VITE_APP_API;
+export const api = "https://scribble-kcrt.onrender.com/api";
