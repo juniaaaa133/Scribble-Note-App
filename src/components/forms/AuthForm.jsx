@@ -55,7 +55,7 @@ const AuthForm = ({isLogin}) => {
   return (
     <div className='auth-ctn z-[8] w-[100%] h-[100vh] fixed top-0 bg-[#F4F0E6]'>
 
-    <p className="main-f fontcl text-[26px]">{isLogin ? api : 'Create a new account'}</p>
+    <p className="main-f fontcl text-[26px]">{isLogin ? "Login account" : 'Create a new account'}</p>
     <div className="auth-main bg-[#fff]">
 <Formik 
 initialValues={{
